@@ -1,6 +1,5 @@
 """
-Work with DENCLUE clustering.
-Do not use global variables!
+Test assignment for demonstration purposes.
 """
 
 import matplotlib.pyplot as plt
@@ -28,10 +27,10 @@ def all_questions() -> None:
     # y = [0, 1, 4, 9, 16, 25]
     answers["plot_original_cluster"] = None
 
-    # Create a scattergram with 300 points. 
+    # Create a scattergram with 300 points.
     # 1) N(1, 2)  (standard deviation= 2) with 100 points
     # 2) N(2, 3) with 200 points
-    # Compute the mean and standard deviation of all the points. 
+    # Compute the mean and standard deviation of all the points.
     answers["Two gaussians"] = None
 
     return answers
